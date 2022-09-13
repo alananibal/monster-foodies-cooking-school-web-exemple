@@ -1,0 +1,29 @@
+/* .card-img-top {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+} */
+
+/* Bootstrap responsive */
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+      }
+    
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  }
+
+  @media (min-width: 768px ) {
+    .newsletter-input{ width: 50%; };
+  }
