@@ -1,8 +1,9 @@
-/* .card-img-top {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-} */
+.button-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+ 
+
 
 /* Bootstrap responsive */
   @include media-breakpoint-up(sm) {
